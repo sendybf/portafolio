@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propuesta: Panel de Inventarios | Sendy Bahamondes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .propuesta-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: var(--spacing-md) 0;
+            text-align: center;
+        }
+
+        .propuesta-content {
+            max-width: 800px;
+            margin: var(--spacing-md) auto;
+            padding: 0 var(--spacing-sm);
+        }
+
+        .propuesta-img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: var(--spacing-md);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: var(--spacing-md);
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="propuesta-header">
+        <div class="section__container">
+            <h1 class="section__title" style="color: white; margin-bottom: 0;">Panel de Control Logístico</h1>
+            <p>Propuesta de Desarrollo Tecnológico</p>
+        </div>
+    </header>
+
+    <main class="propuesta-content">
+        <img src="img/proyecto2.jpg" alt="Mockup del Panel de Inventarios" class="propuesta-img" />
+
+        <section class="sobre-mi__bloque">
+            <h2 class="section__subtitle-small">Descripción del Proyecto</h2>
+            <p>
+                Este proyecto consiste en el diseño y desarrollo de un <strong>Panel de Control (Dashboard) Web</strong>
+                orientado a la gestión de inventarios y logística. La propuesta nace de la necesidad de visualizar
+                de manera clara y rápida el estado de los stocks, movimientos de entrada/salida y alertas de
+                abastecimiento
+                en entornos operativos.
+            </p>
+        </section>
+
+        <section class="sobre-mi__bloque">
+            <h2 class="section__subtitle-small">Objetivos</h2>
+            <ul class="list">
+                <li>Centralizar la información de inventario en una interfaz visual amigable.</li>
+                <li>Facilitar la toma de decisiones mediante indicadores clave (KPIs) simples.</li>
+                <li>Reducir errores en el registro de movimientos mediante formularios validados.</li>
+                <li>Proveer trazabilidad básica de productos (quién retiró, cuándo y para qué).</li>
+            </ul>
+        </section>
+
+        <section class="sobre-mi__bloque">
+            <h2 class="section__subtitle-small">Funcionalidades Propuestas (MVP)</h2>
+            <p>Para la primera versión (Producto Mínimo Viable), se contemplan las siguientes características:</p>
+            <ul class="list">
+                <li><strong>Dashboard Principal:</strong> Gráficos de resumen (Stock total, Artículos críticos).</li>
+                <li><strong>Tabla de Inventario:</strong> Listado filtrable y ordenable de productos.</li>
+                <li><strong>Registro de Movimientos:</strong> Formularios para "Ingreso" y "Salida" de mercadería.</li>
+                <li><strong>Alertas Visuales:</strong> Indicadores de color cuando un producto está bajo el stock
+                    mínimo.</li>
+            </ul>
+        </section>
+
+        <section class="sobre-mi__bloque">
+            <h2 class="section__subtitle-small">Tecnologías</h2>
+            <div class="chips">
+                <span class="chip">HTML5 Semántico</span>
+                <span class="chip">CSS3 (Grid/Flexbox)</span>
+                <span class="chip">JavaScript Vanilla</span>
+                <span class="chip">Chart.js (Librería de gráficos)</span>
+                <span class="chip">JSON / CSV (Almacenamiento local simulado)</span>
+            </div>
+        </section>
+
+        <a href="index.html#proyectos" class="back-link">← Volver al Portafolio</a>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__texto">
+                © 2025 Sendy Bahamondes Fuenzalida
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
